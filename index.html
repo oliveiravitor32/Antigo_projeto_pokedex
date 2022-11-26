@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon-16x16.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+   
+    <main class="main">
+        <!--book-->
+        <div class="book">
+            <h1 id="title" class="title" style="text-transform:capitalize;">searching...</h1>
+
+            <!--Card-->
+            <div class="card">
+                <img src="./images/pokeball.webp" alt="" class="imageCard">
+            </div>
+
+        <div class="control">
+            <!-- ++Previous -->
+            <button class="prev arrow" onclick="control(1, 0)">Prev</button>
+            <!-- ++Next -->
+            <button class="next arrow" onclick="control(0, 1)">Next</button>
+        </div>
+        
+        </div>
+
+        <!--list-->
+        <div class="list">
+            <input type="text" class="searchText input" placeholder="ID or Name">
+            <button onclick="poke()" class="buttonSearch">Search</button>         
+            <ul class="listUl">    
+        </div>
+        <nav class="navigation"> 
+            <button class="gen1 gen" onclick="gen(1)">Generation I</button>
+            <button class="gen2 gen" onclick="gen(2)">Generation II</button>
+            <button class="gen3 gen" onclick="gen(3)">Generation III</button>
+            <button class="gen4 gen" onclick="gen(4)">Generation IV</button>
+            <button class="gen5 gen" onclick="gen(5)">Generation V</button>
+            <button class="gen6 gen" onclick="gen(6)">Generation VI</button>
+            <button class="gen7 gen" onclick="gen(7)">Generation VII</button>
+            <button class="gen8 gen" onclick="gen(8)">Generation VIII</button>
+        </nav>
+    </main>
+
+   
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
