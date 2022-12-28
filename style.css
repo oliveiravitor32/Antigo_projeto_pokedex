@@ -117,8 +117,8 @@ input {
     width: 173px;
 }
 .buttonSearch { 
-    color: rgb(73, 60, 250);
-    background-color: aquamarine;
+    color: rgb(227, 226, 238);
+    background-color: rgb(22, 33, 92);
     right: 0;
     position: absolute;
     height: 28px;
@@ -127,15 +127,13 @@ input {
 }
 .buttonSearch:hover {
     
-    background-color: #b2ff7e;
+    background-color: #b8251a;
 }
 
 .navigation {
     width: 100px;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    right: 25.2%;
     gap: 20px;
 }
 .gen{
