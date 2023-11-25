@@ -1,6 +1,8 @@
 # Pokédex
 
-Projeto simples para treinar requests em APIs.
-Basta fazer o download do código e executar em sua máquina.
+Antigo projeto de uma pokédex que realizei para praticar requests em APIs.
 
-Status: em andamento!
+## Demo
+https://oliveiravitor32.github.io/old-project-pokedex/
+
+Status: Interrompido!
